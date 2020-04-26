@@ -326,25 +326,30 @@ h3{
 
   .header{
     display: block;
+    height: 64px;
   }
 
   .mobilenav{
     align-items: center;
     justify-content: space-between;
     display: flex;
-    margin-left: 16px;
-    margin-right: 16px;
-    margin-top: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 16px;
+    padding-bottom: 16px;
   }
 
   #menumobile{
-    height: auto;
   }
 
   .intro{
     background-color: black;
     display: block;
-    padding-top: 64px;
+    padding-top: 50px;
+    top: 0;
+    margin-top: 0px;
+    padding-bottom: 5px;
+
   }
 
   .intropic{
@@ -353,10 +358,12 @@ h3{
     padding-bottom: 0px;
     padding-right: 0px;
     width: 100%;
+    top: 0;
   }
 
   #imgopen{
     width: 100%;
+
   }
 
   .introtext{
@@ -368,19 +375,22 @@ h3{
 
   h1{
     font-size: 50px;
-    margin-bottom: 25px;
+    margin-bottom: 32px;
   }
 
   h3{
     font-size: 25px;
-    margin-top: 15px;
+    margin-top: 0px;
     margin-bottom: 0px;
+    padding-right: 15px;
   }
 
   .fakebutton{
     padding-top: 8px;
     padding-bottom: 8px;
     background-color: white;
+    margin-top: 24px;
+    margin-bottom: 32px;
     color: black;
     text-align: center;
     width: 60%;
@@ -388,6 +398,11 @@ h3{
     border-radius: 100px
   }
 
+
+/* temporary s3 */
+.all3{
+  display: none;
+}
 
 
 
