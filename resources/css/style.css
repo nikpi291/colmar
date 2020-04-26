@@ -1,0 +1,394 @@
+*{
+  font-family: 'Roboto', sans-serif;
+}
+
+.header{
+  position: fixed;
+  width: 100%;
+  height: 64px;
+  top: 0;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 22px;
+  color: black;
+}
+
+nav{
+  padding-right: 24px;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.mobilenav{
+  display: none;
+}
+
+.logosection{
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+}
+
+.colmar{
+  padding-left: 10px;
+  font-weight: bolder;
+}
+
+#logo{
+  height: 50px;
+  width: auto;
+  padding-left: 24px;
+}
+
+#menu{
+  text-decoration: none;
+  color: black;
+  padding-left: 16px;
+}
+
+.intro{
+  background-color: black;
+  display: flex;
+  padding-top: 64px;
+}
+
+.intropic{
+  padding-left: 24px;
+  padding-top: 32px;
+  padding-bottom: 24px;
+  padding-right: 24px;
+  width: 60%;
+}
+
+#imgopen{
+  width: 100%;
+}
+
+.introtext{
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 30%;
+}
+
+h1{
+  font-size: 50px;
+  margin-bottom: 25px;
+}
+
+h3{
+  font-size: 25px;
+  margin-top: 15px;
+  margin-bottom: 0px;
+}
+
+.fakebutton{
+  padding-top: 8px;
+  padding-bottom: 8px;
+  background-color: white;
+  color: black;
+  text-align: center;
+  width: 60%;
+  font-weight: 500;
+  border-radius: 100px
+}
+
+.section1{
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 32px;
+  background-color: lightgrey;
+}
+
+.practicing{
+  display: block;
+  width: 60%;
+  padding: 0px 24px 0px 24px;
+}
+
+#imgs1{
+  width: 100% !important;
+  padding-bottom: 32px;
+
+}
+
+.articlesection{
+  width: 35%;
+}
+
+.txtr{
+  width: 60%;
+  display: block;
+}
+
+#imgs1article{
+  width: 35%;
+  height: auto;
+  padding-right: 16px;
+}
+
+.orientation{
+  width: 100%;
+  display: flex;
+  padding: 0px 0px 16px 16px;
+}
+
+.campus{
+  width: 100%;
+  display: flex;
+  padding: 16px 0px 16px 16px;
+}
+
+.guest{
+  width: 100%;
+  display: flex;
+  padding: 16px 0px 16px 16px;
+}
+
+
+.h2s1{
+  margin-top: 0px;
+  margin-bottom: 24px;
+  font-size: 35px;
+}
+
+.description{
+  margin-top: 8px;
+  margin-bottom: 0px;
+  line-height: 1.5;
+  color: grey;
+}
+
+.section2{
+  background-color: black;
+  padding-bottom: 32px;
+}
+
+
+.h2s2{
+  text-align: center;
+  font-size: 35px;
+  padding-top: 32px;
+  margin-bottom: 32px;
+  font-weight: 800;
+  letter-spacing: 0.02em;
+  margin-top: 0px;
+  color: white;
+}
+
+.courses{
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 100%;
+  padding-left: 56px;
+  padding-right: 56px;
+}
+
+.softwarecourse{
+  display: block;
+  width: calc(33.33% - 32px);
+  margin-right: 16px;
+  margin-left: 16px;
+  background-color: #E8E8E8;
+  margin-bottom: 32px;
+}
+
+.artcourse{
+  display: block;
+  width: calc(33.33% - 32px);
+  margin-right: 16px;
+  margin-left: 16px;
+  background-color: #E8E8E8;
+  margin-bottom: 32px;
+}
+
+.designcourse{
+  display: block;
+  width: calc(33.33% - 32px);
+  margin-right: 16px;
+  margin-left: 16px;
+  background-color: #E8E8E8;
+  margin-bottom: 32px;
+}
+
+.datacourse{
+  display: block;
+  width: calc(33.33% - 32px);
+  margin-right: 16px;
+  margin-left: 16px;
+  background-color: #E8E8E8;
+  margin-bottom: 32px;
+}
+
+.businesscourse{
+  display: block;
+  width: calc(33.33% - 32px);
+  margin-right: 16px;
+  margin-left: 16px;
+  background-color: #E8E8E8;
+  margin-bottom: 32px;
+}
+
+.marketingcourse{
+  display: block;
+  width: calc(33.33% - 32px);
+  margin-right: 16px;
+  margin-left: 16px;
+  background-color: #E8E8E8;
+  margin-bottom: 32px;
+}
+
+#coursedescription{
+  margin-left: 16px;
+  margin-bottom: 24px;
+  margin-right: 16px;
+}
+
+.imglearning{
+  width: 100%;
+  height: auto;
+}
+
+
+/* Section 3 */
+
+.section3{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.urban{
+  margin: 0px 24px 32px 24px;
+  width: calc(60% - 48px);
+  display: block;
+}
+
+#video{
+  width: 100%;
+  height: auto;
+  margin-bottom: 24px;
+}
+
+.morethesis{
+  width: 40%;
+}
+
+.fisma{
+  margin: 16px 16px 16px 16px;
+  width: calc(100% - 32px);
+  display: flex;
+}
+
+.nowandthen{
+  margin: 16px 16px 16px 16px;
+  width: calc(100% - 32px);
+  display: flex;
+}
+
+.s3subcontent{
+  display: block;
+  margin-left: 16px;
+  width: calc(65% - 16px);
+}
+
+.imgthesis{
+  width: 35%;
+  height: auto;
+}
+
+.all3{
+  background-color: lightgrey;
+}
+
+.footer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 16px 24px 10px 24px;
+  border-top: 1px solid lightgrey;
+}
+
+/* mobile */
+
+@media only screen and (max-width: 500px){
+
+  #menu{
+    display: none;
+  }
+
+  .logosection{
+    display: none;
+  }
+
+  .header{
+    display: block;
+  }
+
+  .mobilenav{
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-top: 16px;
+  }
+
+  #menumobile{
+    height: auto;
+  }
+
+  .intro{
+    background-color: black;
+    display: block;
+    padding-top: 64px;
+  }
+
+  .intropic{
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    width: 100%;
+  }
+
+  #imgopen{
+    width: 100%;
+  }
+
+  .introtext{
+    color: white;
+    display: block;
+    width: 100%;
+    margin-left: 16px;
+  }
+
+  h1{
+    font-size: 50px;
+    margin-bottom: 25px;
+  }
+
+  h3{
+    font-size: 25px;
+    margin-top: 15px;
+    margin-bottom: 0px;
+  }
+
+  .fakebutton{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    width: 60%;
+    font-weight: 500;
+    border-radius: 100px
+  }
+
+
+
+
+}
